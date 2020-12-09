@@ -1,8 +1,12 @@
 ' Not-ugly plantuml style defaults
 
-skinparam defaultFontName  Helvetica
-skinparam sequenceMessageAlign center
-skinparam monochrome true
+skinparam BackgroundColor white
+skinparam BorderColor red
+skinparam DefaultFontName Helvetica
+skinparam DefaultFontSize 14
+skinparam DefaultTextAlignment center
+skinparam SequenceMessageAlign center
+skinparam Shadowing false
 
 skinparam activity {
 	ArrowColor Black
