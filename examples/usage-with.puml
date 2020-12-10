@@ -1,4 +1,0 @@
-@startuml
-!include https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/style.puml
-!include https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/examples/usage-without.puml
-@enduml
