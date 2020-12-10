@@ -1,9 +1,13 @@
 @startuml
+' see https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
+
+skinparam ArrowColor black
 skinparam BackgroundColor white
-skinparam BorderColor red
-skinparam DefaultFontName Helvetica
+skinparam BorderColor black
+skinparam DefaultFontName Courier
 skinparam DefaultFontSize 14
 skinparam DefaultTextAlignment center
+skinparam RoundedCorner 20
 skinparam Shadowing false
 
 skinparam Sequence {
@@ -14,66 +18,11 @@ skinparam Sequence {
 }
 
 ' TODO: everything below
-
-skinparam activity {
-	BackgroundColor White
-	BorderColor Black
-	BorderThickness 1
+skinparam Activity {
+	skinparam Diamond {
+	}
 }
 
-skinparam actor {
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam usecase {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-	BorderThickness 1
-}
-
-skinparam class {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-	BorderThickness 1
-}
-
-
-skinparam object {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam package {
-	BackgroundColor White
-	BorderColor Black
-}
-
-'TODO stereotype
-
-skinparam component {
-	BackgroundColor White
-	InterfaceBackgroundColor White
-	BorderColor Black
-	InterfaceBorderColor Black
-}
-
-skinparam note {
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam state {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam interface {
-	BackgroundColor White
-	BorderColor Black
+skinparam Actor {
 }
 @enduml

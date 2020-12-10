@@ -1,93 +1,27 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="155px" preserveAspectRatio="none" style="width:236px;height:155px;" version="1.1" viewBox="0 0 236 155" width="236px" zoomAndPan="magnify"><defs/><g><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="31" x2="31" y1="34.2969" y2="114.8906"/><line style="stroke: #000000; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="204" x2="204" y1="34.2969" y2="114.8906"/><rect fill="#FFFFFF" height="30.2969" style="stroke: #000000; stroke-width: 1.5;" width="46" x="8" y="3"/><text fill="#000000" font-family="Helvetica" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="15" y="22.9951">Alice</text><rect fill="#FFFFFF" height="30.2969" style="stroke: #000000; stroke-width: 1.5;" width="46" x="8" y="113.8906"/><text fill="#000000" font-family="Helvetica" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="15" y="133.8857">Alice</text><rect fill="#FFFFFF" height="30.2969" style="stroke: #000000; stroke-width: 1.5;" width="42" x="183" y="3"/><text fill="#000000" font-family="Helvetica" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="190" y="22.9951">Bob</text><rect fill="#FFFFFF" height="30.2969" style="stroke: #000000; stroke-width: 1.5;" width="42" x="183" y="113.8906"/><text fill="#000000" font-family="Helvetica" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="28" x="190" y="133.8857">Bob</text><polygon fill="#000000" points="192,62.5938,202,66.5938,192,70.5938,196,66.5938" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="31" x2="198" y1="66.5938" y2="66.5938"/><text fill="#000000" font-family="Helvetica" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="39" x="98" y="61.292">Hello!</text><polygon fill="#000000" points="42,92.8906,32,96.8906,42,100.8906,38,96.8906" style="stroke: #000000; stroke-width: 1.0;"/><line style="stroke: #000000; stroke-width: 1.0;" x1="36" x2="203" y1="96.8906" y2="96.8906"/><text fill="#000000" font-family="Helvetica" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="149" x="43" y="91.5889">This is extremely long</text><!--
-@startuml
-skinparam BackgroundColor white
-skinparam BorderColor red
-skinparam DefaultFontName Helvetica
-skinparam DefaultFontSize 14
-skinparam DefaultTextAlignment center
-skinparam Shadowing false
-
-skinparam Sequence {
-	LifeLineBorderColor Black
-	MessageAlign center
-	ParticipantBackgroundColor White
-	ParticipantBorderColor Black
-}
-
-
-skinparam activity {
-	BackgroundColor White
-	BorderColor Black
-	BorderThickness 1
-}
-
-skinparam actor {
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam usecase {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-	BorderThickness 1
-}
-
-skinparam class {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-	BorderThickness 1
-}
-
-
-skinparam object {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam package {
-	BackgroundColor White
-	BorderColor Black
-}
-
-
-skinparam component {
-	BackgroundColor White
-	InterfaceBackgroundColor White
-	BorderColor Black
-	InterfaceBorderColor Black
-}
-
-skinparam note {
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam state {
-	ArrowColor Black
-	BackgroundColor White
-	BorderColor Black
-}
-
-skinparam interface {
-	BackgroundColor White
-	BorderColor Black
-}
-
-Alice -> Bob : Hello!
-Alice <- Bob : This is extremely long
-@enduml
-
-PlantUML version 1.2019.01(Sat Feb 09 16:32:04 CET 2019)
-(LGPL source distribution)
-Java Runtime: OpenJDK Runtime Environment
-JVM: OpenJDK 64-Bit Server VM
-Java Version: 11.0.9.1+1
-Operating System: Linux
-OS Version: 5.9.11-200.fc33.x86_64
-Default Encoding: UTF-8
-Language: en
-Country: US
---></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" height="155" preserveAspectRatio="none" style="width:265px;height:155px" width="265">
+    <path stroke="#000" stroke-dasharray="5,5" d="M35 34.297v80.594M235 34.297v80.594"/>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M8 3h54v30.297H8z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="15" y="22.995">
+        Alice
+    </text>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M8 113.891h54v30.297H8z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="15" y="133.886">
+        Alice
+    </text>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M216 3h38v30.297h-38z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="223" y="22.995">
+        Bob
+    </text>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M216 113.891h38v30.297h-38z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="223" y="133.886">
+        Bob
+    </text>
+    <path stroke="#000" d="M223 62.594l10 4-10 4 4-4zM35 66.594h194"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="111" y="61.292">
+        Hello!
+    </text>
+    <path stroke="#000" d="M46 92.89l-10 4 10 4-4-4zM40 96.891h194"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="47" y="91.589">
+        This is extremely long
+    </text>
+</svg>
