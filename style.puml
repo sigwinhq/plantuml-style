@@ -4,11 +4,11 @@ skinparam BorderColor red
 skinparam DefaultFontName Helvetica
 skinparam DefaultFontSize 14
 skinparam DefaultTextAlignment center
-skinparam SequenceMessageAlign center
 skinparam Shadowing false
 
-skinparam sequence {
+skinparam Sequence {
 	LifeLineBorderColor Black
+	MessageAlign center
 	ParticipantBackgroundColor White
 	ParticipantBorderColor Black
 }
