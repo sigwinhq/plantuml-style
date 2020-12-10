@@ -9,7 +9,7 @@ The default style choices are unfortunate. This attempts to solve the problem.
 For the lazy: Use the following on the top of your file:
 
 ```
-!includeurl https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
+!include https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
 ```
 
 ## Usage

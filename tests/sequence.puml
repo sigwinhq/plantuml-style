@@ -1,4 +1,6 @@
 @startuml
+' in your own diagrams us
+' !include https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
 !include ../style.puml
 
 Alice -> Bob : Hello!
