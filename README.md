@@ -29,7 +29,7 @@ Without the PlantUML style applied:
 
 With the PlantUML style applied:
 
-![Without the PlantUML style applied](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/examples/usage-with.puml)
+![With the PlantUML style applied](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/examples/usage-with.puml)
 
 ## Origin
 
