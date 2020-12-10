@@ -1,0 +1,19 @@
+@startuml
+' see https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
+
+skinparam ArrowColor black
+skinparam BackgroundColor white
+skinparam BorderColor black
+skinparam DefaultFontName Courier
+skinparam DefaultFontSize 14
+skinparam DefaultTextAlignment center
+skinparam RoundedCorner 20
+skinparam Shadowing false
+
+skinparam Sequence {
+	LifeLineBorderColor Black
+	MessageAlign center
+	ParticipantBackgroundColor White
+	ParticipantBorderColor Black
+}
+@enduml

@@ -1,24 +1,23 @@
-# plantuml-style
-Plantuml not-ugly style
+# PlantUML style
 
-[Plantuml](http://www.plantuml.com) is an awesome Text to UML tool
+[PlantUML](http://www.plantuml.com) is an awesome Text to UML tool.
 
-The default style choices suffer from the color version of 'ransom note font syndrome'
+The default style choices are unfortunate. This attempts to solve the problem. 
 
-For the lazy: Use the following somewhere in your file:
+## Usage
 
-`!includeurl https://raw.githubusercontent.com/matthewjosephtaylor/plantuml-style/master/style.pu`
+For the lazy: Use the following on the top of your file:
 
-## Examples:
+```
+!includeurl https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
+```
 
-#### Before:
-![Interaction ugly](http://i.imgur.com/bqn8Nba.png)
+## Usage
 
-#### After:
-![Interaction not-ugly](http://i.imgur.com/pXyKSDT.png)
+| Example | Without the style  | With the style |
+|:-------:|:------------------:|:--------------:|
+| [`tests/sequence.puml`](./tests/sequence.puml) | ![](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBCoKnELT2rKt3AJrAmKl18pSd9LuIAskX2HKCoCeiLW2YregGeDJSrfr8X9pyldSiXDIy5Q0O0) | ![](http://www.plantuml.com/plantuml/svg/BOn1oeD034RtdY8UGBENdn_RLG_G2-WOd43Cs4a6w-tRASAt-7ZmtcW-PI-RD2rhaB8GHFVT1iGy7VtA7ijSZ798wgJUXxIXyNgmnXVkCccLE_DJ29KE_Br-hyNc9Xm8kd-ufna6U918QY_wrrtq6TdWEtfxfeta14cwDYFfKYCV) |
 
-#### Before:
-![Class ugly](http://i.imgur.com/V29nVlx.png)
+## Origin
 
-#### After:
-![Class not-ugly](http://i.imgur.com/Nf4WEK1.png)
+Originally by Matt Taylor, see [`matthewjosephtaylor/plantuml-style`](https://github.com/matthewjosephtaylor/plantuml-style).

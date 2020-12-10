@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="155" preserveAspectRatio="none" style="width:265px;height:155px" width="265">
+    <path stroke="#000" stroke-dasharray="5,5" d="M35 34.297v80.594M235 34.297v80.594"/>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M8 3h54v30.297H8z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="15" y="22.995">
+        Alice
+    </text>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M8 113.891h54v30.297H8z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="40" x="15" y="133.886">
+        Alice
+    </text>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M216 3h38v30.297h-38z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="223" y="22.995">
+        Bob
+    </text>
+    <path fill="#FFF" stroke="#000" stroke-width="1.5" d="M216 113.891h38v30.297h-38z"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="24" x="223" y="133.886">
+        Bob
+    </text>
+    <path stroke="#000" d="M223 62.594l10 4-10 4 4-4zM35 66.594h194"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="111" y="61.292">
+        Hello!
+    </text>
+    <path stroke="#000" d="M46 92.89l-10 4 10 4-4-4zM40 96.891h194"/>
+    <text font-family="Courier" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="176" x="47" y="91.589">
+        This is extremely long
+    </text>
+</svg>
