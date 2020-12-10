@@ -18,14 +18,6 @@ For the lazy: Use the following on the top of your file:
 |:-------:|:------------------:|:--------------:|
 | [`tests/sequence.puml`](./tests/sequence.puml) | ![](http://www.plantuml.com/plantuml/svg/SoWkIImgAStDuNBCoKnELT2rKt3AJrAmKl18pSd9LuIAskX2HKCoCeiLW2YregGeDJSrfr8X9pyldSiXDIy5Q0O0) | ![](http://www.plantuml.com/plantuml/svg/BOn1oeD034RtdY8UGBENdn_RLG_G2-WOd43Cs4a6w-tRASAt-7ZmtcW-PI-RD2rhaB8GHFVT1iGy7VtA7ijSZ798wgJUXxIXyNgmnXVkCccLE_DJ29KE_Br-hyNc9Xm8kd-ufna6U918QY_wrrtq6TdWEtfxfeta14cwDYFfKYCV) |
 
-Without the PlantUML style applied:
-
-
-
-With the PlantUML style applied:
-
-
-
 ## Origin
 
 Originally by Matt Taylor, see [`matthewjosephtaylor/plantuml-style`](https://github.com/matthewjosephtaylor/plantuml-style).
