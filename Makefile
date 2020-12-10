@@ -8,7 +8,7 @@ build: ## Build the examples
 	plantuml -progress -tsvg tests/*puml -o ../build
 	echo
 	svgo --pretty --quiet --folder build
-update: ## Update the examples
+build/update: ## Update the examples
 	plantuml -progress -tsvg tests/*puml -o ../tests/fixtures
 	echo
 	svgo --pretty --quiet --folder tests/fixtures

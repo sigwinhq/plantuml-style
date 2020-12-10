@@ -16,13 +16,4 @@ skinparam Sequence {
 	ParticipantBackgroundColor White
 	ParticipantBorderColor Black
 }
-
-' TODO: everything below
-skinparam Activity {
-	skinparam Diamond {
-	}
-}
-
-skinparam Actor {
-}
 @enduml
