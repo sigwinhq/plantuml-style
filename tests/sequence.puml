@@ -1,4 +1,6 @@
 @startuml
-Alice -> Bob : Hiya
-Alice -> Bob : This is very long
+!include ../style.puml
+
+Alice -> Bob : Hello!
+Alice <- Bob : This is extremely long
 @enduml

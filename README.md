@@ -24,7 +24,7 @@ A <- B: Another
 With:
 
 ```puml
-!includeurl https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
+!includeurl https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/style.puml
 
 A -> B: A test of the label
 A <- B: Another

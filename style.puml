@@ -13,6 +13,8 @@ skinparam Sequence {
 	ParticipantBorderColor Black
 }
 
+' TODO: everything below
+
 skinparam activity {
 	BackgroundColor White
 	BorderColor Black
