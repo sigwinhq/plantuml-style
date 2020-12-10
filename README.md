@@ -1,24 +1,17 @@
-# plantuml-style
-Plantuml not-ugly style
+# PlantUML style
 
-[Plantuml](http://www.plantuml.com) is an awesome Text to UML tool
+[PlantUML](http://www.plantuml.com) is an awesome Text to UML tool.
 
-The default style choices suffer from the color version of 'ransom note font syndrome'
+The default style choices are unfortunate. This attempts to solve the problem. 
 
-For the lazy: Use the following somewhere in your file:
+## Usage
 
-`!includeurl https://raw.githubusercontent.com/matthewjosephtaylor/plantuml-style/master/style.pu`
+For the lazy: Use the following on the top of your file:
 
-## Examples:
+```puml
+!includeurl https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
+```
 
-#### Before:
-![Interaction ugly](http://i.imgur.com/bqn8Nba.png)
+## Origin
 
-#### After:
-![Interaction not-ugly](http://i.imgur.com/pXyKSDT.png)
-
-#### Before:
-![Class ugly](http://i.imgur.com/V29nVlx.png)
-
-#### After:
-![Class not-ugly](http://i.imgur.com/Nf4WEK1.png)
+Originally by Matt Taylor, see [`matthewjosephtaylor/plantuml-style`](https://github.com/matthewjosephtaylor/plantuml-style).

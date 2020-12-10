@@ -1,5 +1,4 @@
-' Not-ugly plantuml style defaults
-
+@startuml
 skinparam BackgroundColor white
 skinparam BorderColor red
 skinparam DefaultFontName Helvetica
@@ -8,8 +7,13 @@ skinparam DefaultTextAlignment center
 skinparam SequenceMessageAlign center
 skinparam Shadowing false
 
+skinparam sequence {
+	LifeLineBorderColor Black
+	ParticipantBackgroundColor White
+	ParticipantBorderColor Black
+}
+
 skinparam activity {
-	ArrowColor Black
 	BackgroundColor White
 	BorderColor Black
 	BorderThickness 1
@@ -66,17 +70,8 @@ skinparam state {
 	BorderColor Black
 }
 
-skinparam sequence {
-	ArrowColor Black
-	BackgroundColor White
-	ParticipantBackgroundColor White
-	BorderColor Black
-	LifeLineBorderColor Black
-	ParticipantBorderColor Black
-	BoxLineColor Black
-}
-
 skinparam interface {
 	BackgroundColor White
 	BorderColor Black
 }
+@enduml
