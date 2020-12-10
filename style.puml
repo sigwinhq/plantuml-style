@@ -1,19 +1,33 @@
 @startuml
 ' see https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
 
-skinparam ArrowColor black
-skinparam BackgroundColor white
-skinparam BorderColor black
-skinparam DefaultFontName Courier
-skinparam DefaultFontSize 14
+' colors
+skinparam ArrowColor #009DDC
+skinparam ArrowFontColor #009DDC
+skinparam BackgroundColor #FFFFFF
+skinparam BorderColor #CCCCCC
+skinparam DefaultFontColor #000000
+
+' typography
+skinparam DefaultFontName Roboto
+skinparam DefaultFontSize 13
+skinparam DefaultFontStyle normal
+skinparam DefaultMonospacedFontName "Roboto Mono"
 skinparam DefaultTextAlignment center
-skinparam RoundedCorner 20
+
+' layout
+skinparam ArrowThickness 2
+skinparam ResponseMessageBelowArrow true
+skinparam RoundCorner 20
 skinparam Shadowing false
 
 skinparam Sequence {
-	LifeLineBorderColor Black
+	LifeLineBackgroundColor #CCCCCC
+	LifeLineBorderColor #CCCCCC
+	LifeLineBorderThickness 3
 	MessageAlign center
-	ParticipantBackgroundColor White
-	ParticipantBorderColor Black
+
+	ParticipantBackgroundColor #EEEEEE
+	ParticipantBorderColor #AAAAAA
 }
 @enduml
