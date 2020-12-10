@@ -14,21 +14,20 @@ For the lazy: Use the following on the top of your file:
 
 ## Usage
 
-Without it enabled:
+Example:
 
 ```puml
+!include https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/style.puml
+
 A -> B: A test of the label
 A <- B: Another
 ```
+
+Without:
+
+![Transaction sequence](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/webburza/payum-setefi/master/docs/transaction.puml)
 
 With:
-
-```puml
-!includeurl https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/style.puml
-
-A -> B: A test of the label
-A <- B: Another
-```
 
 ## Origin
 

@@ -1,0 +1,4 @@
+@startuml
+A -> B: A test of the label
+A <- B: Another
+@enduml
