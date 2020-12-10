@@ -23,11 +23,13 @@ A -> B: A test of the label
 A <- B: Another
 ```
 
-Without:
+Without the PlantUML style applied:
 
-![Transaction sequence](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/webburza/payum-setefi/master/docs/transaction.puml)
+![Without the PlantUML style applied](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/examples/usage-without.puml)
 
-With:
+With the PlantUML style applied:
+
+![Without the PlantUML style applied](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/sigwinhq/plantuml-style/new/examples/usage-with.puml)
 
 ## Origin
 
