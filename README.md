@@ -9,10 +9,45 @@ The default style choices are unfortunate. This attempts to solve the problem.
 For the lazy: Use the following on the top of your file:
 
 ```
-!include https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
+!define SigwinPUML https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/dist
+
+!include SigwinPUML/style.puml
 ```
 
-## Usage
+## Sigwin branding
+
+Use this:
+
+```puml
+@startuml
+!define SigwinPUML https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/dist
+!include SigwinPUML/style.puml
+!include SigwinPUML/branding.puml
+
+Alice -> Bob : Hello!
+Alice <- Bob : This is extremely long
+
+SigwinFooter()
+@enduml
+```
+
+## Mark as work-in-progress
+
+Use this:
+
+```puml
+@startuml
+!define SigwinPUML https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/dist
+!include SigwinPUML/style.puml
+
+Alice -> Bob : Hello!
+Alice <- Bob : This is extremely long
+
+SigwinWIP()
+@enduml
+```
+
+## Examples
 
 | Example | Without the style  | With the style |
 |:-------:|:------------------:|:--------------:|

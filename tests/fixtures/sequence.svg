@@ -1,29 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" height="150" preserveAspectRatio="none" style="width:213px;height:150px" width="213">
-    <path stroke="#ccc" stroke-width="3" stroke-dasharray="5,5" d="M30 33.234v78.469M183 33.234v78.469"/>
-    <rect fill="#EEE" height="29.234" rx="10" ry="10" width="44" x="8" y="3" stroke="#aaa" stroke-width="1.5"/>
-    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="15" y="22.061">
+<svg xmlns="http://www.w3.org/2000/svg" height="150" preserveAspectRatio="none" style="width:222px;height:150px" width="222">
+    <path stroke="#ccc" stroke-width="3" stroke-dasharray="5,5" d="M30 33.241v78.481M191.5 33.241v78.481"/>
+    <rect fill="#EEE" height="29.241" rx="10" ry="10" width="44" x="8" y="3" stroke="#aaa" stroke-width="1.5"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="15" y="22.149">
         Alice
     </text>
-    <rect fill="#EEE" height="29.234" rx="10" ry="10" width="44" x="8" y="110.703" stroke="#aaa" stroke-width="1.5"/>
-    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="15" y="129.764">
+    <rect fill="#EEE" height="29.241" rx="10" ry="10" width="44" x="8" y="110.722" stroke="#aaa" stroke-width="1.5"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="30" x="15" y="129.872">
         Alice
     </text>
-    <rect fill="#EEE" height="29.234" rx="10" ry="10" width="38" x="164" y="3" stroke="#aaa" stroke-width="1.5"/>
-    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="171" y="22.061">
+    <rect fill="#EEE" height="29.241" rx="10" ry="10" width="39" x="172.5" y="3" stroke="#aaa" stroke-width="1.5"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="25" x="179.5" y="22.149">
         Bob
     </text>
-    <rect fill="#EEE" height="29.234" rx="10" ry="10" width="38" x="164" y="110.703" stroke="#aaa" stroke-width="1.5"/>
-    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="171" y="129.764">
+    <rect fill="#EEE" height="29.241" rx="10" ry="10" width="39" x="172.5" y="110.722" stroke="#aaa" stroke-width="1.5"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="25" x="179.5" y="129.872">
         Bob
     </text>
-    <path fill="#009DDC" stroke="#009ddc" d="M171 60.469l10 4-10 4 4-4z"/>
-    <path stroke="#009ddc" stroke-width="2" d="M30 64.469h147"/>
-    <text fill="#009DDC" font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="34" x="89.5" y="59.295">
+    <path fill="#009DDC" stroke="#009ddc" d="M180 60.481l10 4-10 4 4-4z"/>
+    <path stroke="#009ddc" stroke-width="2" d="M30 64.481h156"/>
+    <text fill="#009DDC" font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="37" x="92.5" y="59.39">
         Hello!
     </text>
-    <path fill="#009DDC" stroke="#009ddc" d="M41 72.469l-10 4 10 4-4-4z"/>
-    <path stroke="#009ddc" stroke-width="2" d="M35 76.469h147"/>
-    <text fill="#009DDC" font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="42" y="89.529">
+    <path fill="#009DDC" stroke="#009ddc" d="M41 72.481l-10 4 10 4-4-4z"/>
+    <path stroke="#009ddc" stroke-width="2" d="M35 76.481h156"/>
+    <text fill="#009DDC" font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="138" x="42" y="89.631">
         This is extremely long
     </text>
 </svg>

@@ -1,0 +1,48 @@
+@startuml
+' see https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
+
+!define SIGWIN_COLOR_BLUE #009DDC
+!define SIGWIN_COLOR_BLACK #000000
+!define SIGWIN_COLOR_WHITE #FFFFFF
+!define SIGWIN_COLOR_LIGHT_GRAY #EEEEEE
+!define SIGWIN_COLOR_GRAY #CCCCCC
+!define SIGWIN_COLOR_DARK_GRAY #AAAAAA
+
+' colors
+skinparam ArrowColor SIGWIN_COLOR_BLUE
+skinparam ArrowFontColor SIGWIN_COLOR_BLUE
+skinparam BackgroundColor SIGWIN_COLOR_WHITE
+skinparam BorderColor SIGWIN_COLOR_LIGHT_GRAY
+skinparam DefaultFontColor SIGWIN_COLOR_BLACK
+
+' typography
+skinparam DefaultFontName Roboto
+skinparam DefaultFontSize 13
+skinparam DefaultFontStyle normal
+skinparam DefaultMonospacedFontName "Roboto Mono"
+skinparam DefaultTextAlignment center
+
+' layout
+skinparam ArrowThickness 2
+skinparam ResponseMessageBelowArrow true
+skinparam RoundCorner 20
+skinparam Shadowing false
+hide stereotype
+
+!definelong SigwinWIP
+skinparam backgroundColor SIGWIN_COLOR_LIGHT_GRAY
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+center footer <font color=red>Warning:</font> work in progress
+!enddefinelong
+
+skinparam Sequence {
+	LifeLineBackgroundColor SIGWIN_COLOR_GRAY
+	LifeLineBorderColor SIGWIN_COLOR_GRAY
+	LifeLineBorderThickness 3
+	MessageAlign center
+
+	ParticipantBackgroundColor SIGWIN_COLOR_LIGHT_GRAY
+	ParticipantBorderColor SIGWIN_COLOR_DARK_GRAY
+}
+@enduml

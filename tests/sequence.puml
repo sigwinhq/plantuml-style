@@ -1,7 +1,14 @@
 @startuml
-' in your own diagrams us
-' !include https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/style.puml
-!include ../style.puml
+!define SigwinPUML ../dist
+
+' in your diagrams instead use
+' !define SigwinPUML https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/dist
+
+!include SigwinPUML/style.puml
+!include SigwinPUML/branding.puml
+
+SigwinFooter()
+SigwinWIP()
 
 Alice -> Bob : Hello!
 Alice <- Bob : This is extremely long
