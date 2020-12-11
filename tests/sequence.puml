@@ -1,16 +1,14 @@
 @startuml
-!define Sigwin ..
+!define SigwinPUML ../dist
 
 ' in your diagrams instead use
-' !define Sigwin https://raw.githubusercontent.com/sigwinhq/plantuml-style/watermark
+' !define SigwinPUML https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/dist
 
-!include <awslib/AWSCommon>
+!include SigwinPUML/style.puml
+!include SigwinPUML/branding.puml
 
-!include Sigwin/style.puml
-!include Sigwin/watermark.puml
-!include Sigwin/logo.puml
-
-SigwinLogo("a", "b", "c")
+SigwinFooter()
+SigwinWIP()
 
 Alice -> Bob : Hello!
 Alice <- Bob : This is extremely long

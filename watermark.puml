@@ -1,5 +1,0 @@
-@startuml
-right footer
-<font color=darkgray>© All rights reserved <$sigwin,scale=0.15,color=darkblue></font>
-endfooter
-@enduml

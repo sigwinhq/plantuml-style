@@ -40,6 +40,19 @@ jH53t1iJtP00P2QmmPZe1kaNIbqOfLrKYJQ8HLI4gTBwtvWwjoVmYTIveUt6MDzk842iRymzdAjZGs3t
 ljcyfwhlI7UKE3V8MpCvgOwjJPIXxOLSFb7CrgQrkPjoDnLHzPR1wAXWWri1McPpmnk0o_5Js8I6N9NcXdQL-MDnlerxw4Gzto1MYu_v-tzPa6zi_1C
 }
 
-AWSEntityColoring(SigwinLogo)
-!define SigwinLogo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SigwinLogo, SigwinLogo)
+!define SigwinLogo(e_scale, e_color) <$SigwinLogo,scale=e_scale,color=e_color>
+
+!definelong SigwinFooter
+legend right
+	© SigwinLogo(0.15, SIGWIN_COLOR_BLUE)
+endlegend
+!enddefinelong
+
+skinparam Legend {
+	BackgroundColor transparent
+	BorderColor SIGWIN_COLOR_BLUE
+	BorderThickness 0
+	FontColor SIGWIN_COLOR_BLUE
+	FontSize 20
+}
 @enduml
