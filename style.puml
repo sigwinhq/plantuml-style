@@ -1,10 +1,13 @@
 @startuml
 ' see https://plantuml-documentation.readthedocs.io/en/latest/formatting/all-skin-params.html
 
+!define SIGWIN_COLOR_BLUE #009DDC
+!define SIGWIN_COLOR_WHITE #FFFFFF
+
 ' colors
-skinparam ArrowColor #009DDC
-skinparam ArrowFontColor #009DDC
-skinparam BackgroundColor #FFFFFF
+skinparam ArrowColor SIGWIN_COLOR_BLUE
+skinparam ArrowFontColor SIGWIN_COLOR_BLUE
+skinparam BackgroundColor SIGWIN_COLOR_WHITE
 skinparam BorderColor #CCCCCC
 skinparam DefaultFontColor #000000
 
@@ -20,6 +23,13 @@ skinparam ArrowThickness 2
 skinparam ResponseMessageBelowArrow true
 skinparam RoundCorner 20
 skinparam Shadowing false
+
+!definelong LAYOUT_AS_SKETCH
+skinparam backgroundColor #EEEBDC
+skinparam handwritten true
+skinparam defaultFontName "Comic Sans MS"
+center footer <font color=red>Warning:</font> Created for discussion, needs to be validated
+!enddefinelong
 
 skinparam Sequence {
 	LifeLineBackgroundColor #CCCCCC

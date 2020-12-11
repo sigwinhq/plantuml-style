@@ -1,5 +1,5 @@
 @startuml
-sprite $sigwin [336x259/16z] {
+sprite $SigwinLogo [336x259/16z] {
 xLrhOhEw3aHlxt_3zttxjK7sYBhqv1ZFpn9Ic8oaaS7syTiW5ZLtzt1tDn6cO-DxJAgt5AxNEDqWiJP4b2dTO8rMGCW1iS7MoeYIHZUPTVG9tI1jb-57ZWs9
 zXqS2JRO6qAuMONF3GBIT6MYupYqdQ771UmI5ChqFzAjpT6viwR9d-gjgN3v-8GDiW6PdxcIZ4oXeuRDfikNZ73MiERAt1KTjv7a4s6-sRINADOJcwzXli7H
 bIRwP5sRMvjsKfwr5xpolK4zDfMWZEqOODTqC9HfQ71kGrkh-d96hT26TDYaOqQSkwXZDklYt8aJsnzo8CuD0MpEYtDxf4ZOp3nd-h5TrOlMtCQUSuEY9UZH
@@ -39,4 +39,7 @@ iAXjEl-5shOEs9ypCATFWVJjf4HPd8TiEly7poaWRMSejgTxmFD3XGBso_Ukw7pJcHOI4sPHRnc2gvsz
 jH53t1iJtP00P2QmmPZe1kaNIbqOfLrKYJQ8HLI4gTBwtvWwjoVmYTIveUt6MDzk842iRymzdAjZGs3tXB5HVvfKnmRPNUBSLNq-S-x4UKDPtspEX_g6n0sX
 ljcyfwhlI7UKE3V8MpCvgOwjJPIXxOLSFb7CrgQrkPjoDnLHzPR1wAXWWri1McPpmnk0o_5Js8I6N9NcXdQL-MDnlerxw4Gzto1MYu_v-tzPa6zi_1C
 }
+
+AWSEntityColoring(SigwinLogo)
+!define SigwinLogo(e_alias, e_label, e_techn) AWSEntity(e_alias, e_label, e_techn, #232F3E, SigwinLogo, SigwinLogo)
 @enduml
