@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="173" preserveAspectRatio="none" style="width:502px;height:173px" width="502">
+    <path fill="#EEE" stroke="#ccc" stroke-width="1.5" d="M22 24h43l7 21.24h408V161H22V24z"/>
+    <path stroke="#ccc" stroke-width="1.5" d="M22 45.241h50"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="37" x="26" y="38.149">
+        Users
+    </text>
+    <rect fill="#EEE" height="71.722" rx="10" ry="10" width="95" x="38.5" y="65.5" stroke="#aaa" stroke-width="1.5"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="35" x="68.5" y="82.649">
+        users
+    </text>
+    <path stroke="#aaa" stroke-width="1.5" d="M39.5 90.741h93"/>
+    <circle cx="49.5" cy="103.861" stroke="#000" r="3"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="57.5" y="106.89">
+        id: «PK»
+    </text>
+    <path stroke="#aaa" d="M39.5 113.981h93"/>
+    <circle cx="49.5" cy="127.102" stroke="#000" r="3"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="57.5" y="130.131">
+        name: text
+    </text>
+    <rect fill="#EEE" height="86.963" rx="10" ry="10" width="165" x="168.5" y="58" stroke="#aaa" stroke-width="1.5"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="86" x="208" y="75.149">
+        users_groups
+    </text>
+    <path stroke="#aaa" stroke-width="1.5" d="M169.5 83.241h163"/>
+    <circle cx="179.5" cy="96.361" stroke="#000" r="3"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="85" x="187.5" y="99.39">
+        user_id: «FK»
+    </text>
+    <circle cx="179.5" cy="111.602" stroke="#000" r="3"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="94" x="187.5" y="114.631">
+        group_id: «FK»
+    </text>
+    <path stroke="#aaa" d="M169.5 121.722h163"/>
+    <circle cx="179.5" cy="134.843" stroke="#000" r="3"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="140" x="187.5" y="137.872">
+        created_at: DATETIME
+    </text>
+    <rect fill="#EEE" height="71.722" rx="10" ry="10" width="95" x="368.5" y="65.5" stroke="#aaa" stroke-width="1.5"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="44" x="394" y="82.649">
+        groups
+    </text>
+    <path stroke="#aaa" stroke-width="1.5" d="M369.5 90.741h93"/>
+    <circle cx="379.5" cy="103.861" stroke="#000" r="3"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="51" x="387.5" y="106.89">
+        id: «PK»
+    </text>
+    <path stroke="#aaa" d="M369.5 113.981h93"/>
+    <circle cx="379.5" cy="127.102" stroke="#000" r="3"/>
+    <text font-family="Roboto" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="387.5" y="130.131">
+        name: text
+    </text>
+    <path d="M133.72 102h26.53" fill="none" stroke="#009ddc" stroke-width="2"/>
+    <path stroke="#009ddc" stroke-width="2" d="M160.25 102l8-6M160.25 102l8 6M160.25 102h8M158.25 98v8"/>
+    <path d="M341.98 102h26.17" fill="none" stroke="#009ddc" stroke-width="2"/>
+    <path stroke="#009ddc" stroke-width="2" d="M341.98 102l-8 6M341.98 102l-8-6M341.98 102h-8M343.98 106v-8"/>
+</svg>

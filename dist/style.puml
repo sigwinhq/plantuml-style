@@ -20,14 +20,16 @@ skinparam DefaultFontName Roboto
 skinparam DefaultFontSize 13
 skinparam DefaultFontStyle normal
 skinparam DefaultMonospacedFontName "Roboto Mono"
-skinparam DefaultTextAlignment center
+skinparam DefaultTextAlignment left
 
 ' layout
 skinparam ArrowThickness 2
+skinparam LineType Ortho
 skinparam ResponseMessageBelowArrow true
 skinparam RoundCorner 20
 skinparam Shadowing false
-hide stereotype
+hide Circle
+hide Stereotype
 
 !definelong SigwinWIP
 skinparam backgroundColor SIGWIN_COLOR_LIGHT_GRAY
@@ -35,6 +37,17 @@ skinparam handwritten true
 skinparam defaultFontName "Comic Sans MS"
 center footer <font color=red>Warning:</font> work in progress
 !enddefinelong
+
+skinparam Class {
+	BackgroundColor SIGWIN_COLOR_LIGHT_GRAY
+	BorderColor SIGWIN_COLOR_DARK_GRAY
+	HeaderBackgroundColor SIGWIN_COLOR_GRAY
+}
+
+skinparam Package {
+	BackgroundColor SIGWIN_COLOR_LIGHT_GRAY
+	BorderColor SIGWIN_COLOR_GRAY
+}
 
 skinparam Sequence {
 	LifeLineBackgroundColor SIGWIN_COLOR_GRAY

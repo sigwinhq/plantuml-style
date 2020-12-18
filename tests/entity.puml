@@ -1,0 +1,30 @@
+@startuml
+!define SigwinPUML ../dist
+' in your diagrams instead use
+' !define SigwinPUML https://raw.githubusercontent.com/sigwinhq/plantuml-style/master/dist
+!include SigwinPUML/style.puml
+
+package Users {
+	entity users {
+		* id: <<PK>>
+		--
+		* name: text
+	}
+
+	entity users_groups {
+		* user_id: <<FK>>
+		* group_id: <<FK>>
+		--
+		* created_at: DATETIME
+	}
+
+	entity groups {
+		* id: <<PK>>
+		--
+		* name: text
+	}
+}
+
+users --|{ users_groups
+users_groups }|-- groups
+@enduml
