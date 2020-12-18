@@ -44,7 +44,7 @@ ljcyfwhlI7UKE3V8MpCvgOwjJPIXxOLSFb7CrgQrkPjoDnLHzPR1wAXWWri1McPpmnk0o_5Js8I6N9Nc
 
 !definelong SigwinFooter
 legend right
-	© SigwinLogo(0.15, SIGWIN_COLOR_BLUE)
+	SigwinLogo(0.15, SIGWIN_COLOR_BLUE)
 endlegend
 !enddefinelong
 
